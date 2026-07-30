@@ -1,7 +1,20 @@
 aid: kingsware
-name: kingsware
-description: kingsware is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Kingsware
+description: >-
+  Kingsware (Zhuhai Kingsware Artificial Intelligence Co., Ltd. / 珠海金智维人工智能股份有限公司)
+  is a leading Chinese enterprise AI and RPA solutions provider that builds "AI digital
+  employees" and enterprise-grade agent platforms by fusing large language models, AI
+  algorithms, and robotic process automation with vertical industry workflows. Its core
+  products are the K-APA intelligent process automation (RPA) platform and the Ki-Agent
+  enterprise agent platform (built around a "Supervised Agent" model with task planning,
+  tool calling, multi-agent collaboration, and result verification), exposed through the
+  Kingsware AI Open Platform (ai.kingsware.cn). The company serves finance, government,
+  manufacturing, energy, telecom, education, HR, and finance/operations use cases; it has
+  been recognized by IDC as the number-one China RPA+AI solution vendor by market share,
+  counts all six major state-owned banks and 1,300+ enterprise/government customers, has
+  deployed over 1.8 million AI digital employees, and is a national-level "little giant"
+  (专精特新) enterprise. Added to the API Evangelist network as a portfolio company of the
+  venture firm Qiming and enriched by the pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/kingsware/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +22,31 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.kingsware.cn/static/cms/images/favicon.ico
 tags:
 - Company
+- Artificial Intelligence
+- RPA
+- AI Agents
+- Automation
+- Digital Employees
+- Large Language Models
+- Enterprise Software
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +55,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://kingsware.cn
+  url: https://www.kingsware.cn
+- type: DeveloperPortal
+  url: http://ai.kingsware.cn/
+- type: Blog
+  url: https://www.kingsware.cn/hangyezixun
+- type: Support
+  url: https://www.kingsware.cn/contact
+- type: PrivacyPolicy
+  url: https://www.kingsware.cn/policy
+- type: TermsOfService
+  url: https://www.kingsware.cn/disclaimer
+- type: DomainSecurity
+  url: security/kingsware-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
