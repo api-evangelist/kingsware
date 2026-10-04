@@ -57,7 +57,7 @@ tags:
 - Digital Employees
 - LLM
 - Enterprise Software
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Artificial Intelligence
@@ -68,6 +68,7 @@ tags_raw:
 - Large Language Models
 - Enterprise Software
 - Financial Services
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
